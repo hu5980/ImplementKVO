@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D41E45A202F2C3900BE837B /* 知识点.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D41E459202F2C3900BE837B /* 知识点.md */; };
 		B83818721A9EBA5100A28321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B83818711A9EBA5100A28321 /* main.m */; };
 		B83818751A9EBA5100A28321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B83818741A9EBA5100A28321 /* AppDelegate.m */; };
 		B83818781A9EBA5100A28321 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83818771A9EBA5100A28321 /* ViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D41E459202F2C3900BE837B /* 知识点.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "知识点.md"; sourceTree = "<group>"; };
 		B838186C1A9EBA5100A28321 /* ImplementKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImplementKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83818701A9EBA5100A28321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B83818711A9EBA5100A28321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				B83818771A9EBA5100A28321 /* ViewController.m */,
 				B83818951A9EC27800A28321 /* NSObject+KVO.h */,
 				B83818961A9EC27800A28321 /* NSObject+KVO.m */,
+				0D41E459202F2C3900BE837B /* 知识点.md */,
 				B83818791A9EBA5100A28321 /* Main.storyboard */,
 				B838187C1A9EBA5100A28321 /* Images.xcassets */,
 				B838187E1A9EBA5100A28321 /* LaunchScreen.xib */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B838187B1A9EBA5100A28321 /* Main.storyboard in Resources */,
+				0D41E45A202F2C3900BE837B /* 知识点.md in Resources */,
 				B83818801A9EBA5100A28321 /* LaunchScreen.xib in Resources */,
 				B838187D1A9EBA5100A28321 /* Images.xcassets in Resources */,
 			);
@@ -418,6 +422,7 @@
 				B83818911A9EBA5100A28321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B83818921A9EBA5100A28321 /* Build configuration list for PBXNativeTarget "ImplementKVOTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				B83818941A9EBA5100A28321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
